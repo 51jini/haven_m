@@ -1,0 +1,10 @@
+{
+    "package": [
+        {"Title":"AWESOME & TWOSOME 디너 패키지","Subscript":"헤이븐호텔에서 드리는 풍성한 혜택!\n‘레스토랑 디너 뷔페 2인, 웰컴 드링크(2잔), 호텔 굿즈 비치타월, 선착순 하버 전망 업그레이드, 무료주차’ 이 모든 구성을 한번에 즐겨보세요! ","Url":"../images/promotion/package_img_01"},
+        {"Title":"여름 패키지 Summer Package","Subscript":"다시 여기 바닷가! 특별한 추억을 만들 여행을 떠나요!\n올 여름 최고의 휴식처 '헤이븐 호텔'에서 시원하고 완벽한 휴가를 보내세요.","Url":"../images/promotion/package_img_02"},
+        {"Title":"세이프 스테이 패키지","Subscript":"이불 밖은 위험해? 철저히 관리되는 호텔은 안.전.해!\n안심 호텔에서의 편안한 휴식을 위해 24시간 스테이와 하버전망 무료 업그레이드, 웰컴 드링크, 99.9% 항균티슈, 1+1 할인 이벤트 이 모든 혜택을 만나 보실 수 있습니다.","Url":"../images/promotion/package_img_03"},
+        {"Title":"굿모닝 패키지","Subscript":"헤이븐 굿모닝 패키지 (Good Morning Package)!\n슈페리어 객실과 간단한 브런치 세트로 구성된 알찬 패키지로 특별한 여행을 떠나보세요.","Url":"../images/promotion/package_img_04"},
+        {"Title":"프라이빗 파티룸 패키지","Subscript":"친구와 함께 특별한 날을 기념하는 파티를 호텔에서!\n친구들과 함께하는 파티, 합리적인 가격으로 파티에 필요한 구성품과 푸짐한 서비스를 담은 패키지로 특별한 하루를 보내세요!","Url":"../images/promotion/package_img_05"},
+        {"Title":"헤이븐 베이직 패키지","Subscript":"헤이븐만의 특별한 베이직 패키지!\n지친 일상 속 사랑하는 사람과 색다른 전망을 바라보며, 여유로운 휴식을 즐겨보세요.","Url":"../images/promotion/package_img_06"}
+    ]
+}

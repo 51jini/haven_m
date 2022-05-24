@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>HAVEN HOTEL</title>
+        <link rel="shortcut icon" href="images/common/favicon.png">
+        <link rel="apple-touch-icon-precomposed" href="images/common/favicon_ios.png" sizes="180x180">
+        <link rel="icon" href="images/common/favicon_android.png" sizes="192x192">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/popup.js"></script>
+    </head>
+    <body>
+        <div class="popupWrap">
+            <div class="popup">
+                <div class="pBox">
+                    <span class="title">NOTICE</span>
+                    <p>
+                        본 사이트는 상업적 목적이 아닌<br>
+                        <span class="red">개인 포트폴리오</span> 용도로 만들어졌습니다.<br>
+                        홈페이지의 일부 내용과 이미지 등은<br>
+                        그 <span class="red">출처가 따로 있음</span>을 밝힙니다.<br>
+                        본 사이트는 <span class="red">HTML5와 CSS3</span>를 기준으로<br>
+                        크롬, 사파리, 오페라, 파이어폭스, IE10이상의<br>
+                        브라우저에 맞춘 홈페이지입니다.<br>
+                    </p>
+                </div>
+                <div class="pBottom">
+                    <a href="#closePopup" class="tClose">오늘 하루 보지 않기</a>
+                    <a href="#closePopup" class="eClose">창닫기 X</a>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="pTop">
+                <a href="#myPage" class="myPage"><img src="images/common/user_icon.png" title="마이페이지"  alt="마이페이지 아이콘" ></a>
+                <p>WELCOME</p>
+                <ul>
+                    <li><a href="tnav/login.html">로그인</a></li>
+                    <li><a href="tnav/join.html">회원가입</a></li>
+                </ul>
+            </div>
+            <ul class="btn">
+                <li><a href="index.html">HOME</a></li>
+                <li class="reservation"><a href="#reservation">예약조회</a></li>
+            </ul>
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="#haven" class="mainNav">호텔소개</a>
+                        <ul class="subNav">
+                            <li><a href="haven/haven.html">호텔소개</a></li>
+                            <li><a href="haven/employment.html">채용정보</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#room" class="mainNav">객실소개</a>
+                        <ul class="subNav">
+                            <li><a href="room/superior.html">슈페리어</a></li>
+                            <li><a href="room/deluxe.html">디럭스</a></li>
+                            <li><a href="room/executive.html">이그제큐티브</a></li>
+                            <li><a href="room/suite.html">스위트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#facility" class="mainNav">부대시설</a>
+                        <ul class="subNav">
+                            <li><a href="facility/cafe.html">커피숍</a></li>
+                            <li><a href="facility/restraunt.html">레스토랑</a></li>
+                            <li><a href="facility/meetingroom.html">미팅룸</a></li>
+                            <li><a href="facility/fitnesscenter.html">피트니스센터</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#promotion" class="mainNav">프로모션</a>
+                        <ul class="subNav">
+                            <li><a href="promotion/package.html">패키지</a></li>
+                            <li><a href="promotion/event.html">이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#customer" class="mainNav">고객지원</a>
+                        <ul class="subNav">
+                            <li><a href="customer/faq.html">FAQ</a></li>
+                            <li><a href="customer/notice.html">공지사항</a></li>
+                            <li><a href="customer/map.html">오시는 길</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bodyWrap">
+            <div class="blackBg">
+                <a href="#panelClose" title="패널닫기"><img src="images/common/panel_close_btn.png" alt="패널닫기버튼"></a>
+            </div>
+            <header>
+                <a href="#panelOpen" class="panelBtn"><img src="images/common/panel_btn.png" alt="패널버튼"></a>
+                <h1><a href="index.html"><img src="images/common/header_logo.png" alt="헤이븐호텔 로고"></a></h1>
+                <ul class="tNav">
+                    <li>
+                        <a href="login.html" class="login"><img src="images/common/login_icon.png" alt="로그인버튼"></a>
+                    </li>
+                    <li class="languageWrap">
+                        <a href="#language" class="language"><img src="images/common/language_icon.png" alt="언어선택버튼"></a>
+                        <ul>
+                            <li><a href="#kor">KOREAN</a></li>
+                            <li><a href="#eng">ENGLISH</a></li>
+                            <li><a href="#chinese">CHINESE</a></li>
+                            <li><a href="#japanese">JAPANESE</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </header>
+            <main>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide01">
+                            <img src="images/main/main_bg_01.png" alt="메인이미지01">
+                            <div class="tWrap">
+
+                                <span class="big">HAVEN HOTEL BUSAN</span>
+                                <span class="small">Home away from Home</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide02">
+                            <img src="images/main/main_bg_02.png" alt="메인이미지02">
+                            <div class="tWrap">
+                                <span class="big">HAVEN Restraunt<br>&quot; 라 스뗄라 &quot;</span>
+                                <span class="small">Dinner Package 20.7.3 ~ 20.8.31</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide03">
+                            <img src="images/main/main_bg_03.png" alt="메인이미지03">
+                            <div class="tWrap">
+                                <span class="big">HAVEN<br>프레지덴셜 스위트</span>
+                                <span class="small">고품격 힐링과 휴식</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </main>
+            <section id="promotion">
+                <h2>PROMOTION</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/main/promotion_bn_01.png" alt="프로모션이미지01">
+                            <span class="event">EVENT</span>
+                            <h3>수목돌풍 이벤트</h3>
+                            <p>
+                                레스토랑 라 스뗄라 코로나19 극복을 위한 주중 점심뷔페 ‘수목돌풍’ 이벤트! 수요일에 이어 목요일도 9,900원! 어려운 시기일수록 점심은 든든하게 드세요
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/main/promotion_bn_02.png" alt="프로모션이미지02">
+                            <span class="package">PACKAGE</span>
+                            <h3>헤이븐 베이직 패키지</h3>
+                            <p>
+                                헤이븐만의 특별한 베이직 패키지! 지친 일상 속 사랑하는 사람과 색다른 전망을 바라보며, 여유로운 휴식을 즐겨보세요.
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/main/promotion_bn_03.png" alt="프로모션이미지03">
+                            <span class="package">PACKAGE</span>
+                            <h3>굿모닝 패키지</h3>
+                            <p>
+                                헤이븐 굿모닝 패키지 (Good Morning Package)! 슈페리어 객실과 간단한 브런치 세트로 구성된 알찬 패키지로 특별한 여행을 떠나보세요.
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/main/promotion_bn_04.png" alt="프로모션이미지04">
+                            <span class="package">PACKAGE</span>
+                            <h3>세이프 스테이 패키지</h3>
+                            <p>
+                                이불 밖은 위험해? 철저히 관리되는 호텔 안.전.해! 안심 호텔에서의 편안한 휴식을 위해 24시간 스테이와 하버전망 무료 업그레이드, 웰컴 드링크, 99.9% 항균티슈, 1+1 할인 이벤트 이 모든 혜택을 만나 보실 수 있습니다.
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/main/promotion_bn_05.png" alt="프로모션이미지05">
+                            <span class="package">PACKAGE</span>
+                            <h3>프라이빗 파티룸 패키지</h3>
+                            <p>
+                                친구와 함께 특별한 날을 기념하는 파티 호텔에서 즐긴다! 친구들과 함께하는 파티, 합리적인 가격으로 파티에 필요한 구성품과 푸짐한 서비스를 담은 패키지로 특별한 하루를 보내세요!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <section id="room">
+                <h2>ROOM</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="img01">
+                                    <a href="room/superior.html">
+                                        <img src="images/main/room_superior_img_01.png" alt="슈페리어룸 이미지01">
+                                    </a>
+                                </li>
+                                <li class="title">
+                                    <span class="box"></span>
+                                    <span class="eng">Superior</span>
+                                    <span class="kor">슈페리어</span>
+                                </li>
+                                <li class="img02">
+                                    <a href="room/superior.html">
+                                        <img src="images/main/room_superior_img_02.png" alt="슈페리어룸 이미지02">
+                                    </a>
+                                </li>
+                                <li class="img03">
+                                    <a href="room/superior.html">
+                                        <img src="images/main/room_superior_img_03.png" alt="슈페리어룸 이미지03">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="img01">
+                                    <a href="room/deluxe.html">
+                                        <img src="images/main/room_deluxe_img_01.png" alt="디럭스룸 이미지01">
+                                    </a>
+                                </li>
+                                <li class="title">
+                                    <span class="box"></span>
+                                    <span class="eng">Deluxe</span>
+                                    <span class="kor">디럭스</span>
+                                </li>
+                                <li class="img02">
+                                    <a href="room/deluxe.html">
+                                        <img src="images/main/room_deluxe_img_02.png" alt="디럭스룸 이미지02">
+                                    </a>
+                                </li>
+                                <li class="img03">
+                                    <a href="room/deluxe.html">
+                                        <img src="images/main/room_deluxe_img_03.png" alt="디럭스룸 이미지03">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="img01">
+                                    <a href="room/executive.html">
+                                        <img src="images/main/room_executive_img_01.png" alt="이그제큐티브룸 이미지01">
+                                    </a>
+                                </li>
+                                <li class="title">
+                                    <span class="box"></span>
+                                    <span class="eng">Executive</span>
+                                    <span class="kor">이그제큐티브</span>
+                                </li>
+                                <li class="img02">
+                                    <a href="room/executive.html">
+                                        <img src="images/main/room_executive_img_02.png" alt="이그제큐티브룸 이미지02">
+                                    </a>
+                                </li>
+                                <li class="img03">
+                                    <a href="room/executive.html">
+                                        <img src="images/main/room_executive_img_03.png" alt="이그제큐티브룸 이미지03">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="img01">
+                                    <a href="room/suite.html">
+                                        <img src="images/main/room_suite_img_01.png" alt="스위트룸 이미지01">
+                                    </a>
+                                </li>
+                                <li class="title">
+                                    <span class="box"></span>
+                                    <span class="eng">Suite</span>
+                                    <span class="kor">스위트</span>
+                                </li>
+                                <li class="img02">
+                                    <a href="room/suite.html">
+                                        <img src="images/main/room_suite_img_02.png" alt="스위트룸 이미지02">
+                                    </a>
+                                </li>
+                                <li class="img03">
+                                    <a href="room/suite.html">
+                                        <img src="images/main/room_suite_img_03.png" alt="스위트룸 이미지03">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </section>
+            <section id="facility">
+                <h2>FACILITY</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="img01">
+                                    <a href="facility/cafe.html">
+                                        <img src="images/main/facility_cafe_img_01.png" alt="커피숍이미지01">
+                                    </a>
+                                </li>
+                                <li class="img02">
+                                    <a href="facility/cafe.html">
+                                        <img src="images/main/facility_cafe_img_02.png" alt="커피숍이미지02">
+                                    </a>
+                                </li>
+                                <li class="title">
+                                    <span class="box"></span>
+                                    <span class="eng">Cafe</span>
+                                    <span class="kor">커피숍</span>
+                                </li>
+                                <li class="img03">
+                                    <a href="facility/cafe.html">
+                                        <img src="images/main/facility_cafe_img_03.png" alt="커피숍이미지03">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="img01">
+                                    <a href="facility/restraunt.html">
+                                        <img src="images/main/facility_restraunt_img_01.png" alt="레스토랑이미지01">
+                                    </a>
+                                </li>
+                                <li class="img02">
+                                    <a href="facility/restraunt.html">
+                                        <img src="images/main/facility_restraunt_img_02.png" alt="레스토랑이미지02">
+                                    </a>
+                                </li>
+                                <li class="title">
+                                    <span class="box"></span>
+                                    <span class="eng">Restraunt</span>
+                                    <span class="kor">라 스뗄라</span>
+                                </li>
+                                <li class="img03">
+                                    <a href="facility/restraunt.html">
+                                        <img src="images/main/facility_restraunt_img_03.png" alt="레스토랑이미지03">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="img01">
+                                    <a href="facility/meetingroom.html">
+                                        <img src="images/main/facility_meeting_img_01.png" alt="미팅룸이미지01">
+                                    </a>
+                                </li>
+                                <li class="img02">
+                                    <a href="facility/meetingroom.html">
+                                        <img src="images/main/facility_meeting_img_02.png" alt="미팅룸이미지02">
+                                    </a>
+                                </li>
+                                <li class="title">
+                                    <span class="box"></span>
+                                    <span class="eng">Meeting</span>
+                                    <span class="kor">미팅룸</span>
+                                </li>
+                                <li class="img03">
+                                    <a href="facility/meetingrom.html">
+                                        <img src="images/main/facility_meeting_img_03.png" alt="미팅룸이미지03">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="img01">
+                                    <a href="facility/fitnesscenter.html">
+                                        <img src="images/main/facility_fitness_img_03.png" alt="피트니스센터 이미지01">
+                                    </a>
+                                </li>
+                                <li class="img02">
+                                    <a href="facility/fitnesscenter.html">
+                                        <img src="images/main/facility_fitness_img_02.png" alt="피트니스센터 이미지02">
+                                    </a>
+                                </li>
+                                <li class="title">
+                                    <span class="box"></span>
+                                    <span class="eng">Fitness</span>
+                                    <span class="kor">피트니스센터</span>
+                                </li>
+                                <li class="img03">
+                                    <a href="facility/fitnesscenter.html">
+                                        <img src="images/main/facility_fitness_img_01.png" alt="피트니스센터 이미지03">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </section>
+            <section id="notice">
+                <h2>NOTICE</h2>
+                <ul class="list">
+                    <li><a href="customer/notice.html">레스토랑 라 스뗄라 단체 예약 프로모션</a></li>
+                    <li><a href="customer/notice.html">헤이븐호텔 제휴업체 정보</a></li>
+                    <li><a href="customer/notice.html">호텔 멤버십「THE HAVEN 더 헤이븐」개편 기념 회원 모집</a></li>
+                </ul>
+                <ul class="btnWrap">
+                    <li class="upBtn"><a href="#upBtn"><img src="images/main/notice_up_btn.png" alt="공지사항 이전버튼"></a></li>
+                    <li class="downBtn"><a href="#downBtn"><img src="images/main/notice_down_btn.png" alt="공지사항 다음버튼"></a></li>
+                </ul>
+            </section>
+            <footer>
+                <ul class="fNav">
+                    <li class="first"><a href="customer/map.html">오시는 길</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li><a href="#">영상정보처리기기 운영·관리 방침</a></li>
+                </ul>
+                <p class="address">
+                    부산광역시 중구 중앙대로 114 | TEL <a href="tel:000-000-0000">000–000–0000</a>
+                    FAX <a href="#fax">000–000–0000</a> | E-mail ooo@naver.com 
+                    대표이사 박진희 | 사업자등록번호 <a href="#cID">000–00–00000</a> 
+                    통신판매업신고번호 제0000 – 부산중구 – 0000호
+                </p>
+                <p class="copy">&copy; 2020 HAVEN HOTEL ALL RIGHTS RESERVED.</p>
+                <ul class="sns">
+                    <li><a href="https://ko-kr.facebook.com/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/accounts/login/?hl=ko">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+                    <li><a href="https://twitter.com/?lang=ko">Twitter</a></li>
+                </ul>
+                <a href="http://haven1.dothome.co.kr?move_pc_screen=1" class="pc">PC버전</a>
+            </footer>
+        </div>
+    </body>
+</html>

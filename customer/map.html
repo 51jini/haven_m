@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>오시는길 | HAVEN HOTEL</title>
+        <link rel="shortcut icon" href="../images/common/favicon.png">
+        <link rel="apple-touch-icon-precomposed" href="../images/common/favicon_ios.png" sizes="180x180">
+        <link rel="icon" href="../images/common/favicon_android.png" sizes="192x192">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/sub.css">
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5e9115a92f940ecb44b484cf3998b029"></script>
+        <script src="../js/jquery-1.12.0.min.js"></script>
+        <script src="../js/common.js"></script>
+        <script src="../js/sub.js"></script>
+    </head>
+    <body>
+        <div class="panel">
+            <div class="pTop">
+                <a href="#myPage" class="myPage"><img src="../images/common/user_icon.png" title="마이페이지"  alt="마이페이지 아이콘" ></a>
+                <p>WELCOME</p>
+                <ul>
+                    <li><a href="../tnav/login.html">로그인</a></li>
+                    <li><a href="../tnav/join.html">회원가입</a></li>
+                </ul>
+            </div>
+            <ul class="btn">
+                <li><a href="../index.html">HOME</a></li>
+                <li class="reservation"><a href="#reservation">예약조회</a></li>
+            </ul>
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="#" class="mainNav">호텔소개</a>
+                        <ul class="subNav">
+                            <li><a href="../haven/haven.html">호텔소개</a></li>
+                            <li><a href="../haven/employment.html">채용정보</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mainNav">객실소개</a>
+                        <ul class="subNav">
+                            <li><a href="../room/superior.html">슈페리어</a></li>
+                            <li><a href="../room/deluxe.html">디럭스</a></li>
+                            <li><a href="../room/executive.html">이그제큐티브</a></li>
+                            <li><a href="../room/suite.html">스위트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mainNav">부대시설</a>
+                        <ul class="subNav">
+                            <li><a href="../facility/cafe.html">커피숍</a></li>
+                            <li><a href="../facility/restraunt.html">레스토랑</a></li>
+                            <li><a href="../facility/meetingroom.html">미팅룸</a></li>
+                            <li><a href="../facility/fitnesscenter.html">피트니스센터</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mainNav">프로모션</a>
+                        <ul class="subNav">
+                            <li><a href="../promotion/package.html">패키지</a></li>
+                            <li><a href="../promotion/event.html">이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="mainNav">고객지원</a>
+                        <ul class="subNav">
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="notice.html">공지사항</a></li>
+                            <li><a href="map.html">오시는 길</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bodyWrap">
+            <div class="blackBg">
+                <a href="#panelClose" title="패널닫기"><img src="../images/common/panel_close_btn.png" alt="패널닫기버튼"></a>
+            </div>
+            <header>
+                <a href="#panelOpen" class="panelBtn"><img src="../images/common/panel_btn.png" alt="패널버튼"></a>
+                <h1><a href="../index.html"><img src="../images/common/header_logo.png" alt="헤이븐호텔 로고"></a></h1>
+                <ul class="tNav">
+                    <li>
+                        <a href="../login.html" class="login"><img src="../images/common/login_icon.png" alt="로그인버튼"></a>
+                    </li>
+                    <li class="languageWrap">
+                        <a href="#language" class="language"><img src="../images/common/language_icon.png" alt="언어선택버튼"></a>
+                        <ul>
+                            <li><a href="#kor">KOREAN</a></li>
+                            <li><a href="#eng">ENGLISH</a></li>
+                            <li><a href="#chinese">CHINESE</a></li>
+                            <li><a href="#japanese">JAPANESE</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </header>
+            <section>
+                <div class="subTop subImg05">
+                    <div class="topTitle">
+                        <h2>고객지원</h2>
+                        <p class="subEngTitle">CUSTOMER</p>
+                    </div>
+                </div>
+                <nav class="subMenu">
+                    <ul class="column03">
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="notice.html">공지사항</a></li>
+                        <li class="active"><a href="map.html">오시는 길</a></li>
+                    </ul>
+                </nav>
+                <div class="subContents map">
+                    <h3>오시는 길</h3>
+                    <div id="map"></div>
+                    <script src="../js/map.js"></script>
+                    <div class="addr">
+                        <h4>부산광역시 중구 중앙대로 114 <br>(중앙동 4가 83-1) 우) 48938</h4>
+                        <ul>
+                            <li>TEL&nbsp; 051-000-0000</li>
+                            <li>FAX&nbsp; 051-000-0000</li>
+                            <li>EMAIL&nbsp; haven@havenhotel.com</li>
+                        </ul>
+                    </div>
+                    <div class="tabMenu">
+                        <ul class="tabBtn">
+                            <li><a href="#tabBtn01" class="active">자가용/택시</a></li>
+                            <li><a href="#tabBtn02">대중교통</a></li>
+                            <li><a href="#tabBtn03">공항 리무진</a></li>
+                        </ul>
+                        <div class="tabContentsWrap">
+                            <div class="car">
+                                <ul>
+                                    <li class="seoul">
+                                        <h5>서울방면</h5>
+                                        <div class="root">
+                                            <img src="../images/customer/map_car_seoul.png" alt="서울방면루트">
+                                            <div class="spanWrap">
+                                                <span class="txt01">중부(내륙)고속도로</span>
+                                                <span class="txt02">경부고속도로</span>
+                                                <span class="txt03">중앙고속도로</span>
+                                                <span class="txt04">백양터널</span>
+                                                <span class="txt05">수정터널</span>
+                                                <span class="txt06">충장대로</span>
+                                                <span class="txt07">중앙대로</span>
+                                                <span class="txt08">헤이븐호텔</span>
+                                            </div>
+                                        </div>
+                                   </li>
+                                    <li class="masan">
+                                       <h5>마산방면</h5>
+                                       <div class="root">
+                                           <img src="../images/customer/map_car_masan.png" alt="마산방면루트">
+                                           <div class="spanWrap">
+                                               <span class="txt01">남해제2고속도로</span>
+                                               <span class="txt02">사상IC</span>
+                                               <span class="txt03">가야대로</span>
+                                               <span class="txt04">학감대로</span>
+                                               <span class="txt05">구덕터널</span>
+                                               <span class="txt06">부산터널</span>
+                                               <span class="txt07">중앙대로</span>
+                                               <span class="txt08">헤이븐호텔</span>
+                                           </div>
+                                       </div>
+                                   </li>
+                               </ul>
+                           </div>
+                            <div class="public">
+                               <div class="subway">
+                                   <h5>지하철</h5>
+                                   <ul>
+                                       <li class="near">
+                                           <p class="tit">· 인근역 → 호텔</p>
+                                           <div class="root">
+                                               <img src="../images/customer/map_public_near.png" alt="인근역루트">
+                                               <div class="spanWrap">
+                                                   <span class="txt01">1호선 중앙역 14번 출구</span>
+                                                   <span class="txt02">중부소방서 방향 200m 직진(도보3분)</span>
+                                                   <span class="txt03">헤이븐호텔 도착</span>
+                                               </div>
+                                           </div>
+                                       </li>
+                                       <li class="kimhae">
+                                           <p class="tit">· 김해공항 → 호텔</p>
+                                           <div class="root">
+                                               <img src="../images/customer/map_public_kimhae.png" alt="김해공항루트">
+                                               <div class="spanWrap">
+                                                   <span class="txt01">공항역 승차</span>
+                                                   <span class="txt02">2호선 사상역 승차</span>
+                                                   <span class="txt03">1호선 서면역 승차</span>
+                                                   <span class="txt04">중앙역 하차</span>
+                                                   <span class="txt05">헤이븐호텔 도착</span>
+                                               </div>
+                                           </div>
+                                       </li>
+                                    </ul>
+                               </div>
+                               <div class="bus">
+                                   <h5>버스</h5>
+                                   <p>17,26,27,40,41,61,66,81,82,85,87,88,88-1,101,103,134,190,508,1003,1004 이용</p>
+                                   <p>· 중앙동, 중부경찰서, 영주동 하차</p>
+                               </div>
+                            </div>
+                            <div class="airport">
+                                <h5>공항리무진</h5>
+                                <ul>
+                                    <li>· 노선 : 서면/부산역행 탑승 (중앙동 또는 영주동 승,하차</li>
+                                    <li>· 소요시간 : 약 50분</li>
+                                    <li>· 이용요금<br><span class="tab">성인 6,000원 / 초등학생 4,500원 / 미취학 무료</span></li>
+                                    <li>· 운행간격 : 약 40분</li>
+                                </ul>
+                                <table>
+                                    <tr>
+                                        <th>중앙동</th>
+                                        <td>첫차 5:37</td>
+                                        <td>막차 19:38</td>
+                                    </tr>
+                                    <tr>
+                                        <th>영주동</th>
+                                        <td>첫차 5:38</td>
+                                        <td>막차 19:40</td>
+                                    </tr>
+                                    <tr>
+                                        <th>김해공항</th>
+                                        <td>첫차 7:00</td>
+                                        <td>막차 21:50</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <ul class="fNav">
+                    <li class="first"><a href="map.html">오시는 길</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li><a href="#">영상정보처리기기 운영·관리 방침</a></li>
+                </ul>
+                <p class="address">
+                    부산광역시 중구 중앙대로 114 | TEL <a href="tel:000-000-0000">000–000–0000</a>
+                    FAX <a href="#fax">000–000–0000</a> | E-mail ooo@naver.com 
+                    대표이사 박진희 | 사업자등록번호 <a href="#cID">000–00–00000</a> 
+                    통신판매업신고번호 제0000 – 부산중구 – 0000호
+                </p>
+                <p class="copy">&copy; 2020 HAVEN HOTEL ALL RIGHTS RESERVED.</p>
+                <ul class="sns">
+                    <li><a href="https://ko-kr.facebook.com/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/accounts/login/?hl=ko">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+                    <li><a href="https://twitter.com/?lang=ko">Twitter</a></li>
+                </ul>
+                <a href="http://haven1.dothome.co.kr?move_pc_screen=1" class="pc">PC버전</a>
+            </footer>
+        </div>
+    </body>
+</html>
